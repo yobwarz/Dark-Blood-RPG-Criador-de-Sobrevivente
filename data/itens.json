@@ -1,0 +1,2211 @@
+[
+  {
+    "key": "base:habilidades:0",
+    "name": "Alvo Prioritário",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-on-target.svg",
+    "system": {
+      "grupo": "Combate e Proteção",
+      "custo": 15,
+      "prerequisito": "Proficiência em Armas Brancas.",
+      "descricao": "Quando uma criatura ao seu alcance corpo a corpo atacar um aliado adjacente a você, você pode gastar sua Reação para realizar um ataque corpo a corpo contra ela.\n\nSe acertar, o ataque causa metade do dano normal, arredondado para baixo, e a criatura sofre −2 na jogada de ataque contra seu aliado."
+    }
+  },
+  {
+    "key": "base:habilidades:1",
+    "name": "Ataque Duplo Improvisado",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-crossed-swords.svg",
+    "system": {
+      "grupo": "Combate e Proteção",
+      "custo": 10,
+      "prerequisito": "Proficiência em Armas Brancas.",
+      "descricao": "Uma vez por turno, ao realizar um ataque corpo a corpo com uma arma leve ou improvisada, você pode gastar uma segunda ação para atacar o mesmo alvo com outra arma leve ou improvisada que esteja segurando.\n\nO segundo ataque recebe +1 na jogada de ataque, mas não adiciona o modificador de atributo ao dano."
+    }
+  },
+  {
+    "key": "base:habilidades:2",
+    "name": "Conhecimento Anatômico",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-anatomy.svg",
+    "system": {
+      "grupo": "Combate e Proteção",
+      "custo": 15,
+      "prerequisito": "Especialização em Medicina ou Ciências.",
+      "descricao": "Você conhece pontos vulneráveis da anatomia humana e de criaturas com estruturas corporais semelhantes.\n\nUma vez por turno, quando acertar um ataque corpo a corpo contra uma dessas criaturas, poderá causar +1 de dano.\n\nEsse benefício não se aplica a criaturas cuja anatomia seja desconhecida ou incompatível com seus conhecimentos."
+    }
+  },
+  {
+    "key": "base:habilidades:3",
+    "name": "Reflexos Defensivos",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-dodging.svg",
+    "system": {
+      "grupo": "Combate e Proteção",
+      "custo": 15,
+      "prerequisito": "Proficiência em Acrobacia.",
+      "descricao": "Quando utilizar sua Reação para realizar uma defesa improvisada ou esquiva permitida pelas regras de combate, você recebe +2 no teste correspondente."
+    }
+  },
+  {
+    "key": "base:habilidades:4",
+    "name": "Mãos Firmes",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hand-grip.svg",
+    "system": {
+      "grupo": "Combate e Proteção",
+      "custo": 10,
+      "prerequisito": "Proficiência em Armas de Fogo.",
+      "descricao": "Você recebe +1 nas jogadas de ataque com armas de fogo quando estiver utilizando a ação de Mirar. Esse benefício não impede falhas críticas ou travamentos da arma."
+    }
+  },
+  {
+    "key": "base:habilidades:5",
+    "name": "Faro por Suprimentos",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/05_mochila.png",
+    "system": {
+      "grupo": "Exploração e Furtividade",
+      "custo": 10,
+      "prerequisito": "Proficiência em Percepção ou Investigação.",
+      "descricao": "Você recebe +2 em testes para localizar suprimentos escondidos, compartimentos ocultos e recursos aproveitáveis em locais abandonados.\n\nUma busca não pode ser repetida com essa habilidade até que as condições do local mudem significativamente."
+    }
+  },
+  {
+    "key": "base:habilidades:6",
+    "name": "Passos Fantasmas",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-footprint.svg",
+    "system": {
+      "grupo": "Exploração e Furtividade",
+      "custo": 20,
+      "prerequisito": "Especialização em Furtividade.",
+      "descricao": "Ao se deslocar até metade do seu Deslocamento enquanto estiver Furtivo, você recebe +2 no teste de Furtividade realizado para evitar ser detectado.\n\nEsse benefício não se aplica quando estiver atravessando um local sem cobertura diante de uma criatura que possa vê-lo claramente."
+    }
+  },
+  {
+    "key": "base:habilidades:7",
+    "name": "Conhecimento Urbano",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/03_cidade_em_ruinas.png",
+    "system": {
+      "grupo": "Exploração e Furtividade",
+      "custo": 10,
+      "prerequisito": "Proficiência em Orientação.",
+      "descricao": "Após observar uma área urbana durante 1 minuto, você pode identificar uma rota de fuga acessível, um ponto de cobertura ou uma passagem que não seja imediatamente evidente.\n\nO Mestre informa uma possibilidade que realmente exista no ambiente. A habilidade não cria passagens nem revela locais inacessíveis à observação."
+    }
+  },
+  {
+    "key": "base:habilidades:8",
+    "name": "Instinto de Sobrevivência",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/10_cranio.png",
+    "system": {
+      "grupo": "Exploração e Furtividade",
+      "custo": 15,
+      "prerequisito": "Proficiência em Percepção.",
+      "descricao": "Quando for surpreendido por uma emboscada, você poderá utilizar sua Reação normalmente durante a primeira rodada, desde que esteja consciente e seja capaz de perceber a ameaça no momento em que ela se manifesta."
+    }
+  },
+  {
+    "key": "base:habilidades:9",
+    "name": "Olhos de Vigia",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-all-seeing-eye.svg",
+    "system": {
+      "grupo": "Exploração e Furtividade",
+      "custo": 10,
+      "prerequisito": "Proficiência em Percepção.",
+      "descricao": "Você recebe +2 nos testes de Percepção para identificar movimentos suspeitos, armadilhas visíveis e sinais de aproximação de criaturas enquanto estiver realizando uma atividade de vigilância."
+    }
+  },
+  {
+    "key": "base:habilidades:10",
+    "name": "Economia da Guerra",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-machine-gun-magazine.svg",
+    "system": {
+      "grupo": "Recursos e Conhecimento Técnico",
+      "custo": 15,
+      "prerequisito": "Proficiência em Mecânica ou Ofício.",
+      "descricao": "Durante um descanso seguro, você pode desmontar equipamentos danificados e aproveitar componentes para realizar um reparo.\n\nUma vez por descanso, você recebe +2 em um teste de Mecânica ou Ofício realizado para reparar um equipamento, desde que disponha de ferramentas e peças aproveitáveis.\n\nEssa habilidade não cria munição, medicamentos ou componentes inexistentes."
+    }
+  },
+  {
+    "key": "base:habilidades:11",
+    "name": "Técnico de Emergência",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-toolbox.svg",
+    "system": {
+      "grupo": "Recursos e Conhecimento Técnico",
+      "custo": 15,
+      "prerequisito": "Proficiência em Eletrônica.",
+      "descricao": "Você recebe +2 em testes de Eletrônica para realizar reparos temporários, restabelecer energia ou ativar dispositivos danificados.\n\nUm reparo temporário permanece funcional até o fim da cena ou até o equipamento sofrer uma nova falha, o que ocorrer primeiro."
+    }
+  },
+  {
+    "key": "base:habilidades:12",
+    "name": "Armadilha Improvisada",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-wolf-trap.svg",
+    "system": {
+      "grupo": "Recursos e Conhecimento Técnico",
+      "custo": 15,
+      "prerequisito": "Proficiência em Engenharia ou Ofício.",
+      "descricao": "Você pode construir armadilhas rudimentares utilizando materiais e ferramentas adequados.\n\nA montagem exige 10 minutos e um teste de Engenharia ou Ofício, com Número-Alvo definido pelo Mestre conforme a complexidade.\n\nEm caso de sucesso, a armadilha funciona conforme seu mecanismo e os materiais utilizados. Em caso de falha, os materiais são gastos e a armadilha não funciona.\n\nO dano e as condições causadas dependem dos componentes empregados e das regras dos perigos correspondentes."
+    }
+  },
+  {
+    "key": "base:habilidades:13",
+    "name": "Especialista em Acampamentos",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/11_fogueira.png",
+    "system": {
+      "grupo": "Recursos e Conhecimento Técnico",
+      "custo": 10,
+      "prerequisito": "Proficiência em Sobrevivência.",
+      "descricao": "Você recebe +2 nos testes de Sobrevivência realizados para escolher locais seguros, montar abrigos ou proteger acampamentos contra condições ambientais.\n\nQuando houver recursos adequados, você reduz pela metade o tempo necessário para montar um abrigo improvisado."
+    }
+  },
+  {
+    "key": "base:habilidades:14",
+    "name": "Primeiros Socorros",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-first-aid-kit.svg",
+    "system": {
+      "grupo": "Apoio e Recuperação",
+      "custo": 10,
+      "prerequisito": "Proficiência em Medicina.",
+      "descricao": "Você recebe +2 nos testes de Medicina realizados para estabilizar uma criatura incapacitada, conter sangramentos ou impedir o agravamento imediato de um ferimento.\n\nEssa habilidade não recupera PV adicionais nem remove ferimentos graves automaticamente."
+    }
+  },
+  {
+    "key": "base:habilidades:15",
+    "name": "Sangue Frio",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-brain.svg",
+    "system": {
+      "grupo": "Apoio e Recuperação",
+      "custo": 15,
+      "prerequisito": "Sanidade 12 ou superior.",
+      "descricao": "Uma vez por cena, quando receber Estresse, você pode reduzir em 1 a quantidade recebida, até o mínimo de 0.\n\nEssa habilidade não impede a perda de Pontos de Sanidade e não modifica testes de Resistência de Vontade."
+    }
+  },
+  {
+    "key": "base:habilidades:16",
+    "name": "Voz de Comando",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-megaphone.svg",
+    "system": {
+      "grupo": "Apoio e Recuperação",
+      "custo": 15,
+      "prerequisito": "Proficiência em Liderança.",
+      "descricao": "Uma vez por cena, você pode gastar uma ação para orientar um aliado que consiga ouvi-lo a até 9 metros.\n\nO aliado recebe +2 em seu próximo teste de atributo ou perícia realizado antes do final do próximo turno dele. Esse benefício não se aplica a jogadas de ataque ou testes de resistência."
+    }
+  },
+  {
+    "key": "base:habilidades:17",
+    "name": "Condicionamento Físico",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-muscle-up.svg",
+    "system": {
+      "grupo": "Resistência e Condicionamento",
+      "custo": 10,
+      "prerequisito": "Proficiência em Atletismo.",
+      "descricao": "Você recebe +2 nos testes de Constituição para resistir à fadiga causada por esforços prolongados, marchas forçadas ou privação de descanso."
+    }
+  },
+  {
+    "key": "base:habilidades:18",
+    "name": "Resistência Natural",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-heart-shield.svg",
+    "system": {
+      "grupo": "Resistência e Condicionamento",
+      "custo": 15,
+      "prerequisito": "Nenhum.",
+      "descricao": "Você recebe +2 nos testes de Constituição contra doenças comuns, venenos e efeitos ambientais que afetem diretamente o organismo. Esse benefício não modifica testes de Exposição realizados com d100."
+    }
+  },
+  {
+    "key": "base:habilidades:19",
+    "name": "Recuperação Disciplinada",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-healing.svg",
+    "system": {
+      "grupo": "Resistência e Condicionamento",
+      "custo": 10,
+      "prerequisito": "Proficiência em Atletismo ou Medicina.",
+      "descricao": "Durante um descanso seguro, você recupera 1 PV adicional quando receber recuperação de PV pelas regras de descanso. Esse benefício pode ser aplicado apenas uma vez por descanso."
+    }
+  },
+  {
+    "key": "base:habilidades:20",
+    "name": "Corpo Resiliente",
+    "type": "habilidade",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-heart-armor.svg",
+    "system": {
+      "grupo": "Resistência e Condicionamento",
+      "custo": 15,
+      "prerequisito": "Condicionamento Físico.",
+      "descricao": "Uma vez por cena, quando realizar um teste de Constituição para permanecer consciente ou resistir aos efeitos de um ferimento, você recebe +2 no resultado. Esse benefício não reduz o dano recebido nem impede consequências que não permitam teste."
+    }
+  },
+  {
+    "key": "base:armas:0",
+    "name": "Faca de cozinha",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/12_faca.png",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:1",
+    "name": "Canivete dobrável",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-swiss-army-knife.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:2",
+    "name": "Faca de combate militar",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/12_faca.png",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 19,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:3",
+    "name": "Estilete de precisão",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/12_faca.png",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 19,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "durabilidade": {
+        "value": 3,
+        "max": 3
+      },
+      "longa": false,
+      "descricao": "Bônus crítico original: +2 de Perfuração."
+    }
+  },
+  {
+    "key": "base:armas:4",
+    "name": "Tesoura de metal",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-scissors.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:5",
+    "name": "Adaga artesanal",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/12_faca.png",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:6",
+    "name": "Chave de fenda longa",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-screwdriver.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:7",
+    "name": "Caneta de metal afiada",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-pencil.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Facas e Lâminas Curtas",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "durabilidade": {
+        "value": 3,
+        "max": 3
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:8",
+    "name": "Facão de mato",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-machete.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d6+1",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:9",
+    "name": "Cutelo de açougueiro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-cleaver.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d6+1",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:10",
+    "name": "Espada de treino (metal)",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-broadsword.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:11",
+    "name": "Espada longa enferrujada",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-rusty-sword.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d8",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:12",
+    "name": "Katana",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-katana.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d8+1",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 19,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:13",
+    "name": "Espada cerimonial",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-broadsword.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Espadas e Lâminas Longas",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:14",
+    "name": "Machado de lenhador",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-war-axe.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Machados e Ferramentas Cortantes",
+      "dano": "1d8+1",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "2d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:15",
+    "name": "Machadinha de acampamento",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-war-axe.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Machados e Ferramentas Cortantes",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:16",
+    "name": "Enxada curta",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-spade.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Machados e Ferramentas Cortantes",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:17",
+    "name": "Foice de mão",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-scythe.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Machados e Ferramentas Cortantes",
+      "dano": "1d6",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 19,
+      "bonusCritico": "",
+      "efeitoCritico": "Ferimento Profundo",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:18",
+    "name": "Serra de mão",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hand-saw.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Machados e Ferramentas Cortantes",
+      "dano": "1d4",
+      "tipoDano": "Cortante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Sangramento",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:19",
+    "name": "Pé de cabra",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-crowbar.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:20",
+    "name": "Martelo de carpinteiro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-claw-hammer.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Atordoamento",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:21",
+    "name": "Martelo de pedreiro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-flat-hammer.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d8",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:22",
+    "name": "Chave inglesa grande",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-spanner.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:23",
+    "name": "Barra de ferro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-lead-pipe.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:24",
+    "name": "Taco de beisebol (madeira)",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-baseball-bat.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:25",
+    "name": "Taco de beisebol (metal)",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-baseball-bat.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6+1",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:26",
+    "name": "Corrente de ferro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-crossed-chains.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:27",
+    "name": "Cano de metal curto",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-lead-pipe.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Contundentes",
+      "dano": "1d6",
+      "tipoDano": "Contundente",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 15,
+        "max": 15
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:28",
+    "name": "Espeto de ferro",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-spears.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Perfurantes",
+      "dano": "1d4+1",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:29",
+    "name": "Estaca de madeira",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-heart-stake.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Perfurantes",
+      "dano": "1d4",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 3,
+        "max": 3
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:30",
+    "name": "Tridente de pesca",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-trident.svg",
+    "system": {
+      "categoria": "branca",
+      "subgrupo": "Armas Perfurantes",
+      "dano": "1d6",
+      "tipoDano": "Perfurante",
+      "atributo": "for",
+      "somaAtributoDano": true,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:31",
+    "name": "Pistola 9mm",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_10.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Pistolas e Revólveres",
+      "dano": "2d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": "9mm",
+      "capacidade": 15,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:32",
+    "name": "Revólver .38",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-revolver.svg",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Pistolas e Revólveres",
+      "dano": "2d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "municao": ".38",
+      "capacidade": 6,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:33",
+    "name": "Revólver Magnum .44",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-revolver.svg",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Pistolas e Revólveres",
+      "dano": "2d8",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": ".44",
+      "capacidade": 6,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:34",
+    "name": "Pistola com silenciador",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_10.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Pistolas e Revólveres",
+      "dano": "2d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": "9mm",
+      "capacidade": 12,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:35",
+    "name": "Desert Eagle .50",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_34.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Pistolas e Revólveres",
+      "dano": "2d10",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": ".50 AE",
+      "capacidade": 7,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:36",
+    "name": "Espingarda de cano curto",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_01-2.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Espingardas",
+      "dano": "3d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Sangramento",
+      "municao": "Calibre 12",
+      "capacidade": 6,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:37",
+    "name": "Espingarda de cano longo",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_01-2.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Espingardas",
+      "dano": "4d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": "Calibre 12",
+      "capacidade": 5,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:38",
+    "name": "Escopeta de cano serrado",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_03-2.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Espingardas",
+      "dano": "3d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Sangramento",
+      "municao": "Calibre 12",
+      "capacidade": 2,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:39",
+    "name": "Escopeta automática AA-12",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_05-2.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Espingardas",
+      "dano": "3d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Sangramento",
+      "municao": "Calibre 12",
+      "capacidade": 8,
+      "durabilidade": {
+        "value": 25,
+        "max": 25
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:40",
+    "name": "Submetralhadora Uzi",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_10-2.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Submetralhadoras",
+      "dano": "2d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": "9mm",
+      "capacidade": 30,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:41",
+    "name": "SMG caseira",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_02.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Submetralhadoras",
+      "dano": "2d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d4",
+      "efeitoCritico": "",
+      "municao": "9mm",
+      "capacidade": 20,
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:42",
+    "name": "Rifle de caça",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_05.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Rifles, Carabinas e Fuzis",
+      "dano": "2d10",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 19,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "municao": ".308",
+      "capacidade": 5,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:43",
+    "name": "Carabina Lever Action",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_19.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Rifles, Carabinas e Fuzis",
+      "dano": "2d8",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "municao": ".357",
+      "capacidade": 7,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:44",
+    "name": "Fuzil M4 (semiautomático)",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_03.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Rifles, Carabinas e Fuzis",
+      "dano": "2d8",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "municao": "5,56 mm",
+      "capacidade": 30,
+      "durabilidade": {
+        "value": 25,
+        "max": 25
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:45",
+    "name": "Fuzil AK-47",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_08.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Rifles, Carabinas e Fuzis",
+      "dano": "2d8",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d8",
+      "efeitoCritico": "",
+      "municao": "7,62 mm",
+      "capacidade": 30,
+      "durabilidade": {
+        "value": 25,
+        "max": 25
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:46",
+    "name": "Fuzil de precisão .308",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_20.png",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Rifles, Carabinas e Fuzis",
+      "dano": "3d10",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 19,
+      "bonusCritico": "2d6",
+      "efeitoCritico": "",
+      "municao": ".308",
+      "capacidade": 5,
+      "durabilidade": {
+        "value": 25,
+        "max": 25
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:47",
+    "name": "Pistola de pregos",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_09-3.png",
+    "system": {
+      "categoria": "improvisada",
+      "subgrupo": "Armas Improvisadas e Especiais",
+      "dano": "1d10",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Perfuração",
+      "municao": "Pregos industriais",
+      "capacidade": 1,
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:48",
+    "name": "Arma artesanal de cano duplo",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/arma_03-2.png",
+    "system": {
+      "categoria": "improvisada",
+      "subgrupo": "Armas Improvisadas e Especiais",
+      "dano": "3d6",
+      "tipoDano": "Perfurante",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "1d6",
+      "efeitoCritico": "",
+      "municao": "Calibre 12",
+      "capacidade": 2,
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": true,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:49",
+    "name": "Lança-chamas improvisado",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-flamethrower.svg",
+    "system": {
+      "categoria": "improvisada",
+      "subgrupo": "Armas Improvisadas e Especiais",
+      "dano": "2d10",
+      "tipoDano": "Fogo",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Incêndio",
+      "municao": "Combustível",
+      "capacidade": 0,
+      "durabilidade": {
+        "value": 6,
+        "max": 6
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:armas:50",
+    "name": "Arma de choque (TASER)",
+    "type": "arma",
+    "img": "systems/sangue-escuro/assets/icones/complementares/sbed-tesla.svg",
+    "system": {
+      "categoria": "fogo",
+      "subgrupo": "Armas Improvisadas e Especiais",
+      "dano": "1d6",
+      "tipoDano": "Elétrico",
+      "atributo": "agi",
+      "somaAtributoDano": false,
+      "margemCritico": 20,
+      "bonusCritico": "",
+      "efeitoCritico": "Atordoamento",
+      "municao": "Cartucho elétrico",
+      "capacidade": 2,
+      "durabilidade": {
+        "value": 20,
+        "max": 20
+      },
+      "longa": false,
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:0",
+    "name": "Roupas comuns",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-t-shirt.svg",
+    "system": {
+      "pr": 0,
+      "compartimentos": 1,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:1",
+    "name": "Jaqueta de couro",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-leather-vest.svg",
+    "system": {
+      "pr": 1,
+      "compartimentos": 2,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:2",
+    "name": "Roupa reforçada",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-t-shirt.svg",
+    "system": {
+      "pr": 1,
+      "compartimentos": 2,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:3",
+    "name": "Colete improvisado",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-armor-vest.svg",
+    "system": {
+      "pr": 2,
+      "compartimentos": 2,
+      "penalidade": "−1 em Furtividade",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:4",
+    "name": "Colete anticorte",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-armor-vest.svg",
+    "system": {
+      "pr": 2,
+      "compartimentos": 2,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:5",
+    "name": "Colete balístico leve",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-kevlar-vest.svg",
+    "system": {
+      "pr": 3,
+      "compartimentos": 2,
+      "penalidade": "−1 em Atletismo",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:6",
+    "name": "Colete balístico pesado",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-kevlar-vest.svg",
+    "system": {
+      "pr": 4,
+      "compartimentos": 3,
+      "penalidade": "−2 em Atletismo e Furtividade",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:7",
+    "name": "Armadura de proteção policial",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-body-armor.svg",
+    "system": {
+      "pr": 4,
+      "compartimentos": 3,
+      "penalidade": "−2 em Furtividade",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:8",
+    "name": "Armadura tática reforçada",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-body-armor.svg",
+    "system": {
+      "pr": 5,
+      "compartimentos": 4,
+      "penalidade": "−2 em testes de Agilidade",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:9",
+    "name": "Proteção artesanal completa",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-armor-vest.svg",
+    "system": {
+      "pr": 3,
+      "compartimentos": 4,
+      "penalidade": "−2 em Agilidade e Furtividade",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": ""
+    }
+  },
+  {
+    "key": "base:protecoes:10",
+    "name": "Traje de bombeiro",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-fire-shield.svg",
+    "system": {
+      "pr": 2,
+      "compartimentos": 4,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Resistência ao calor e a chamas breves."
+    }
+  },
+  {
+    "key": "base:protecoes:11",
+    "name": "Traje de proteção química",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hazmat-suit.svg",
+    "system": {
+      "pr": 0,
+      "compartimentos": 3,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção contra respingos químicos e partículas."
+    }
+  },
+  {
+    "key": "base:protecoes:12",
+    "name": "Traje de proteção biológica",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hazmat-suit.svg",
+    "system": {
+      "pr": 0,
+      "compartimentos": 3,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Barreira contra fluidos e contaminantes biológicos."
+    }
+  },
+  {
+    "key": "base:protecoes:13",
+    "name": "Traje de isolamento completo",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hazmat-suit.svg",
+    "system": {
+      "pr": 1,
+      "compartimentos": 4,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção biológica com vedação integral."
+    }
+  },
+  {
+    "key": "base:protecoes:14",
+    "name": "Traje antitumulto",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-body-armor.svg",
+    "system": {
+      "pr": 4,
+      "compartimentos": 4,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção contra impactos e ataques corpo a corpo."
+    }
+  },
+  {
+    "key": "base:protecoes:15",
+    "name": "Traje tático militar",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-body-armor.svg",
+    "system": {
+      "pr": 4,
+      "compartimentos": 4,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção balística e resistência física."
+    }
+  },
+  {
+    "key": "base:protecoes:16",
+    "name": "Traje de mergulho",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-diving-helmet.svg",
+    "system": {
+      "pr": 1,
+      "compartimentos": 3,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção térmica durante atividades aquáticas."
+    }
+  },
+  {
+    "key": "base:protecoes:17",
+    "name": "Traje de descontaminação",
+    "type": "protecao",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-hazmat-suit.svg",
+    "system": {
+      "pr": 0,
+      "compartimentos": 4,
+      "penalidade": "",
+      "durabilidade": {
+        "value": 10,
+        "max": 10
+      },
+      "descricao": "Proteção química com vedação reforçada."
+    }
+  },
+  {
+    "key": "base:equipamentos:0",
+    "name": "Lanterna de mão",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-flashlight.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Ilumina ambientes escuros; necessita de baterias."
+    }
+  },
+  {
+    "key": "base:equipamentos:1",
+    "name": "Lanterna de cabeça",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-flashlight.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite iluminar ambientes mantendo as mãos livres."
+    }
+  },
+  {
+    "key": "base:equipamentos:2",
+    "name": "Corda de 10 metros",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-rope-coil.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Utilizada em escaladas, descidas e amarrações."
+    }
+  },
+  {
+    "key": "base:equipamentos:3",
+    "name": "Isqueiro",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-lighter.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Produz uma pequena chama."
+    }
+  },
+  {
+    "key": "base:equipamentos:4",
+    "name": "Caixa de fósforos",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-matchbox.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Contém 20 fósforos."
+    }
+  },
+  {
+    "key": "base:equipamentos:5",
+    "name": "Cantil de 1 litro",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-water-flask.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Armazena água potável."
+    }
+  },
+  {
+    "key": "base:equipamentos:6",
+    "name": "Filtro portátil de água",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-water-recycling.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite filtrar impurezas físicas da água."
+    }
+  },
+  {
+    "key": "base:equipamentos:7",
+    "name": "Rádio portátil",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-pocket-radio.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Recebe transmissões em frequências compatíveis."
+    }
+  },
+  {
+    "key": "base:equipamentos:8",
+    "name": "Binóculos",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-binoculars.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Concede +2 em testes de Percepção para observar objetos distantes."
+    }
+  },
+  {
+    "key": "base:equipamentos:9",
+    "name": "Bússola",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-compass.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Auxilia testes de Orientação."
+    }
+  },
+  {
+    "key": "base:equipamentos:10",
+    "name": "Mapa regional",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-treasure-map.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Concede +2 em testes de Orientação na região representada."
+    }
+  },
+  {
+    "key": "base:equipamentos:11",
+    "name": "Máscara de poeira",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/01_mascara_de_gas.png",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Protege contra poeira e partículas comuns."
+    }
+  },
+  {
+    "key": "base:equipamentos:12",
+    "name": "Luvas resistentes",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-gloves.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Protegem as mãos durante atividades com materiais cortantes."
+    }
+  },
+  {
+    "key": "base:equipamentos:13",
+    "name": "Fita adesiva resistente",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-bandage-roll.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite fixações e reparos provisórios."
+    }
+  },
+  {
+    "key": "base:equipamentos:14",
+    "name": "Cobertor térmico",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-blanket.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Auxilia na conservação de calor corporal."
+    }
+  },
+  {
+    "key": "base:equipamentos:15",
+    "name": "Saco de dormir",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-sleeping-bag.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Protege contra o frio moderado durante o descanso."
+    }
+  },
+  {
+    "key": "base:equipamentos:16",
+    "name": "Barraca para duas pessoas",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-camping-tent.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 3,
+      "descricao": "Oferece abrigo contra chuva e vento moderados."
+    }
+  },
+  {
+    "key": "base:equipamentos:17",
+    "name": "Pé-de-cabra",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-crowbar.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Concede +2 em testes de Força para abrir objetos por alavancagem."
+    }
+  },
+  {
+    "key": "base:equipamentos:18",
+    "name": "Pá dobrável",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/skoll-trench-spade.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite escavar e remover pequenos obstáculos."
+    }
+  },
+  {
+    "key": "base:equipamentos:19",
+    "name": "Extintor de incêndio",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-fire-extinguisher.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Apaga pequenos focos de incêndio."
+    }
+  },
+  {
+    "key": "base:equipamentos:20",
+    "name": "Kit de primeiros socorros",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-first-aid-kit.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite realizar procedimentos básicos de Medicina."
+    }
+  },
+  {
+    "key": "base:equipamentos:21",
+    "name": "Kit médico avançado",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-first-aid-kit.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Concede +2 em testes de Medicina realizados com seus instrumentos."
+    }
+  },
+  {
+    "key": "base:equipamentos:22",
+    "name": "Kit de ferramentas mecânicas",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-toolbox.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Permite reparar motores, armas e mecanismos."
+    }
+  },
+  {
+    "key": "base:equipamentos:23",
+    "name": "Kit de eletrônica",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-circuitry.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Permite reparar circuitos e equipamentos eletrônicos."
+    }
+  },
+  {
+    "key": "base:equipamentos:24",
+    "name": "Kit de arrombamento",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-lockpicks.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite abrir fechaduras mecânicas sem a chave."
+    }
+  },
+  {
+    "key": "base:equipamentos:25",
+    "name": "Detector de metais portátil",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-metal-detector.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Detecta objetos metálicos próximos."
+    }
+  },
+  {
+    "key": "base:equipamentos:26",
+    "name": "Óculos de visão noturna",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-night-vision.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permitem enxergar em ambientes com pouca iluminação."
+    }
+  },
+  {
+    "key": "base:equipamentos:27",
+    "name": "Câmera térmica portátil",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-photo-camera.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Detecta diferenças de temperatura dentro de seu alcance."
+    }
+  },
+  {
+    "key": "base:equipamentos:28",
+    "name": "Rádio comunicador",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-walkie-talkie.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite comunicação por rádio com aparelhos compatíveis."
+    }
+  },
+  {
+    "key": "base:equipamentos:29",
+    "name": "Máscara de gás",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/01_mascara_de_gas.png",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Protege contra determinados gases e partículas quando equipada com filtro adequado."
+    }
+  },
+  {
+    "key": "base:equipamentos:30",
+    "name": "Filtro de máscara de gás",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/01_mascara_de_gas.png",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Substitui um filtro utilizado ou contaminado."
+    }
+  },
+  {
+    "key": "base:equipamentos:31",
+    "name": "Dosímetro",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/02_radiacao.png",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Mede exposição à radiação ionizante."
+    }
+  },
+  {
+    "key": "base:equipamentos:32",
+    "name": "Detector químico portátil",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-test-tubes.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Identifica determinadas substâncias perigosas."
+    }
+  },
+  {
+    "key": "base:equipamentos:33",
+    "name": "Algemas",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-handcuffs.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Restringem os movimentos das mãos de uma criatura dominada."
+    }
+  },
+  {
+    "key": "base:equipamentos:34",
+    "name": "Alicate de corte reforçado",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-triple-plier.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Corta correntes leves, arames e cercas metálicas."
+    }
+  },
+  {
+    "key": "base:equipamentos:35",
+    "name": "Equipamento de escalada",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-rope-coil.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 2,
+      "descricao": "Concede +2 em testes de Atletismo para escalar com pontos de ancoragem."
+    }
+  },
+  {
+    "key": "base:equipamentos:36",
+    "name": "Kit de costura resistente",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/lorc-sewing-needle.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 1,
+      "descricao": "Permite reparar roupas e componentes de tecido."
+    }
+  },
+  {
+    "key": "base:equipamentos:37",
+    "name": "Gerador portátil",
+    "type": "equipamento",
+    "img": "systems/sangue-escuro/assets/icones/complementares/delapouite-power-generator.svg",
+    "system": {
+      "categoria": "diverso",
+      "quantidade": 1,
+      "compartimentosFixos": 3,
+      "descricao": "Fornece energia elétrica enquanto possuir combustível."
+    }
+  }
+]

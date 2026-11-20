@@ -1,0 +1,10 @@
+import {ID,defaults} from './model.mjs';import {ensure,gm,processMessage} from './store.mjs';import {openDashboard,openWizard,OpenCreator,OpenCampaign,OpenTheme,refresh,safe} from './ui.mjs';import {importProfiles} from './catalog.mjs';
+Hooks.once('init',()=>{
+ game.settings.register(ID,'database',{scope:'world',config:false,type:String,default:''});
+ game.settings.register(ID,'config',{scope:'world',config:false,type:Object,default:defaults(),onChange:()=>safe(refresh)()});
+ game.settings.register(ID,'theme',{scope:'client',config:false,type:Object,default:{background:'#13171d',panel:'#222933',accent:'#c5ad7b',text:'#e8e6df',size:16}});
+ for(const [key,name,label,type,restricted]of [['creator','Criador de Sobrevivente','Abrir criação e acompanhamento',OpenCreator,false],['campaign','Regras e fontes da criação','Configurar regras, fontes e etapas',OpenCampaign,true],['theme','Aparência pessoal','Personalizar cores em HEX',OpenTheme,false]])game.settings.registerMenu(ID,key,{name,label,icon:'fas fa-user-plus',type,restricted});
+ game.modules.get(ID).api=Object.freeze({version:1,open:openDashboard,openDraft:openWizard,importProfiles});
+});
+Hooks.once('ready',()=>{if(game.system.id!=='sangue-escuro'){ui.notifications.error('Criador de Sobrevivente exige Sangue Escuro RPG.');return;}Hooks.on('createChatMessage',(m,o,u)=>safe(()=>processMessage(m,o,u))());for(const event of ['createJournalEntry','updateJournalEntry','deleteJournalEntry','createActor','deleteActor'])Hooks.on(event,doc=>safe(refresh)(doc));if(gm())safe(ensure)();});
+Hooks.on('getSceneControlButtons',groups=>{const g=(Array.isArray(groups)?groups:Object.values(groups??{})).find(g=>['tokens','token'].includes(g.name));if(!g?.tools)return;const t={name:'criadorSobrevivente',title:'Sangue Escuro — Criador de Sobrevivente',icon:'fas fa-user-plus',button:true,onChange:safe(openDashboard)};if(Array.isArray(g.tools)){if(!g.tools.some(x=>x.name===t.name))g.tools.push(t);}else g.tools[t.name]={...t,order:Object.keys(g.tools).length};});

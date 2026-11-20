@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "001",
+    "name": "Médico",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "medicina",
+      "investigacao",
+      "percepcao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Estetoscópio de bolso.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Uma paciente reconhece sua voz e pede ajuda para encontrar a família.",
+    "dilemma": "Decidiu quem receberia o último leito na evacuação.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "002",
+    "name": "Enfermeiro",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "medicina",
+      "percepcao",
+      "investigacao",
+      "persuasao"
+    ],
+    "gearNote": "Bolsa de curativos organizada.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Uma antiga colega de plantão mantém um posto clandestino.",
+    "dilemma": "Guardou uma lista de pacientes que foram deixados para trás.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "003",
+    "name": "Paramédico",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "percepcao",
+      "resistenciaFisica",
+      "ciencias",
+      "persuasao"
+    ],
+    "gearNote": "Tesoura de trauma e manta térmica.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Seu antigo parceiro de ambulância desapareceu numa rota de resgate.",
+    "dilemma": "Abandonou uma ambulância com alguém ainda dentro.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "004",
+    "name": "Cirurgião",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "resistenciaFisica",
+      "ciencias",
+      "persuasao",
+      "medicina"
+    ],
+    "gearNote": "Estojo de instrumentos cirúrgicos incompleto.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Um aprendiz insiste que você lhe ensine um procedimento arriscado.",
+    "dilemma": "Realizou uma operação sem o consentimento esperado em situação desesperada.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "005",
+    "name": "Farmacêutico",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "ciencias",
+      "persuasao",
+      "medicina",
+      "investigacao"
+    ],
+    "gearNote": "Caderno de dosagens e frascos vazios rotulados.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Uma comunidade confia em você para identificar medicamentos vencidos.",
+    "dilemma": "Ocultou a escassez de um remédio essencial.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "006",
+    "name": "Dentista",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "persuasao",
+      "medicina",
+      "investigacao",
+      "percepcao"
+    ],
+    "gearNote": "Pinça odontológica e espelho clínico.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "O responsável por um abrigo conhece seu antigo consultório.",
+    "dilemma": "Trocou suprimentos médicos por proteção de parentes.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "007",
+    "name": "Fisioterapeuta",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "medicina",
+      "investigacao",
+      "percepcao",
+      "resistenciaFisica"
+    ],
+    "gearNote": "Faixa elástica e registro de exercícios.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Um sobrevivente lesionado depende de sua orientação para caminhar.",
+    "dilemma": "Prometeu uma recuperação que talvez não fosse possível.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "008",
+    "name": "Psicólogo",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "investigacao",
+      "percepcao",
+      "resistenciaFisica",
+      "ciencias"
+    ],
+    "gearNote": "Caderno de acompanhamento sem nomes completos.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Uma pessoa que atendeu sabe um segredo do grupo.",
+    "dilemma": "Usou uma confidência em nome da segurança coletiva.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "009",
+    "name": "Técnico de Laboratório",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "percepcao",
+      "resistenciaFisica",
+      "ciencias",
+      "persuasao"
+    ],
+    "gearNote": "Estojo de amostras e etiquetas resistentes.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Uma pesquisadora quer recuperar resultados de um laboratório selado.",
+    "dilemma": "Descartou uma amostra sem confirmar a origem.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "010",
+    "name": "Radiologista",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "resistenciaFisica",
+      "ciencias",
+      "persuasao",
+      "medicina"
+    ],
+    "gearNote": "Dosímetro portátil antigo.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Um mecânico protege a sala de exames que você operava.",
+    "dilemma": "Interpretou uma imagem de forma errada durante uma crise.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "011",
+    "name": "Socorrista Hospitalar",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "ciencias",
+      "persuasao",
+      "medicina",
+      "investigacao"
+    ],
+    "gearNote": "Prancha de imobilização dobrável.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Um porteiro hospitalar ajudou você a evacuar pacientes.",
+    "dilemma": "Fechou uma passagem de emergência para conter uma multidão.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "012",
+    "name": "Nutricionista",
+    "family": "Saúde e Medicina",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "persuasao",
+      "medicina",
+      "investigacao",
+      "percepcao"
+    ],
+    "gearNote": "Tabela manuscrita de porções e necessidades.",
+    "description": "Uma unidade de saúde precisa de profissionais para lidar com pacientes e recursos limitados.",
+    "bond": "Crianças do abrigo esperam sua distribuição de alimentos.",
+    "dilemma": "Aceitou racionar refeições de pessoas mais frágeis.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-1.svg"
+  },
+  {
+    "id": "013",
+    "name": "Policial",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "agi",
+      "con"
+    ],
+    "skills": [
+      "percepcao",
+      "investigacao",
+      "intimidacao",
+      "atletismo"
+    ],
+    "gearNote": "Algemas e bloco de ocorrências.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Um ex-colega patrulha território controlado por outra facção.",
+    "dilemma": "Obedeceu a uma ordem de isolamento injusta.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "014",
+    "name": "Bombeiro",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "atletismo",
+      "investigacao",
+      "intimidacao",
+      "armasFogo"
+    ],
+    "gearNote": "Machadinha de resgate desgastada.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Sua antiga guarnição mantém um abrigo improvisado.",
+    "dilemma": "Escolheu conter o incêndio em vez de entrar num prédio ocupado.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "015",
+    "name": "Soldado",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "intimidacao",
+      "armasFogo",
+      "lideranca"
+    ],
+    "gearNote": "Kit de limpeza de equipamento sem arma.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Um antigo integrante do pelotão espera ser encontrado.",
+    "dilemma": "Cumpriu uma missão cujo objetivo real foi ocultado.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "016",
+    "name": "Guarda Patrimonial",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "intimidacao",
+      "armasFogo",
+      "lideranca",
+      "percepcao"
+    ],
+    "gearNote": "Chaveiro numerado de instalações.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma zeladora ainda confia em seus acessos antigos.",
+    "dilemma": "Permitiu a entrada de alguém sem autorização.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "017",
+    "name": "Investigador Particular",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "armasFogo",
+      "lideranca",
+      "percepcao",
+      "atletismo"
+    ],
+    "gearNote": "Pasta de fotografias e endereços.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma cliente desaparecida deixou uma última mensagem.",
+    "dilemma": "Vendeu informação que expôs uma pessoa inocente.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "018",
+    "name": "Agente Penitenciário",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "lideranca",
+      "percepcao",
+      "atletismo",
+      "investigacao"
+    ],
+    "gearNote": "Lanterna de inspeção e apito.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Um ex-detento conhece a rota que você procura.",
+    "dilemma": "Trancou uma ala quando a evacuação ainda era possível.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "019",
+    "name": "Guarda Florestal",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "percepcao",
+      "atletismo",
+      "investigacao",
+      "intimidacao"
+    ],
+    "gearNote": "Binóculo compacto e mapa de reserva.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Um guarda de outra região precisa de apoio na fronteira do bosque.",
+    "dilemma": "Ignorou sinais de caçadores ilegais por medo de conflito.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "020",
+    "name": "Oficial de Resgate",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "atletismo",
+      "investigacao",
+      "intimidacao",
+      "armasFogo"
+    ],
+    "gearNote": "Corda de lançamento com mosquetão.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "O último resgatado se tornou líder de uma comunidade.",
+    "dilemma": "Abortou uma busca antes de encontrar todos os desaparecidos.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "021",
+    "name": "Segurança de Eventos",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "intimidacao",
+      "armasFogo",
+      "lideranca"
+    ],
+    "gearNote": "Rádio comunicador com canal marcado.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma antiga equipe de produção conhece saídas de um estádio.",
+    "dilemma": "Abriu um portão que desencadeou pânico.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "022",
+    "name": "Instrutor de Defesa",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "intimidacao",
+      "armasFogo",
+      "lideranca",
+      "percepcao"
+    ],
+    "gearNote": "Aparador de treinamento e luvas.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma ex-aluna deseja proteger um grupo desarmado.",
+    "dilemma": "Ensinou técnicas perigosas a pessoas despreparadas.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "023",
+    "name": "Perito Criminal",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "armasFogo",
+      "lideranca",
+      "percepcao",
+      "atletismo"
+    ],
+    "gearNote": "Kit de coleta com pincel e envelopes.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma investigadora procura você para reexaminar um caso.",
+    "dilemma": "Seu laudo anterior condenou alguém com prova incompleta.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "024",
+    "name": "Operador de Emergência",
+    "family": "Segurança e Militar",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "con",
+      "agi"
+    ],
+    "skills": [
+      "lideranca",
+      "percepcao",
+      "atletismo",
+      "investigacao"
+    ],
+    "gearNote": "Lista de frequências e códigos de despacho.",
+    "description": "A experiência em resposta a emergências ajuda a reconhecer ameaças e organizar retiradas.",
+    "bond": "Uma voz familiar volta a chamar em rádio aberto.",
+    "dilemma": "Priorizou um chamado e deixou outro sem atendimento.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-2.svg"
+  },
+  {
+    "id": "025",
+    "name": "Biólogo",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "ciencias",
+      "tecnologia",
+      "investigacao",
+      "eletronica"
+    ],
+    "gearNote": "Lupa de campo e fichário de espécies.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Um pesquisador guardou seu trabalho sobre vetores de doença.",
+    "dilemma": "Amostrou uma espécie sem avaliar seu risco.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "026",
+    "name": "Químico",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "tecnologia",
+      "investigacao",
+      "eletronica",
+      "conhecimento"
+    ],
+    "gearNote": "Óculos laboratoriais e tabela de reagentes.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma oficina precisa de sua avaliação de substâncias desconhecidas.",
+    "dilemma": "Misturou produtos durante o caos e contaminou um depósito.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "027",
+    "name": "Físico",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "investigacao",
+      "eletronica",
+      "conhecimento",
+      "percepcao"
+    ],
+    "gearNote": "Caderno de cálculos e cronômetro simples.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma engenheira espera que você explique uma falha energética.",
+    "dilemma": "Apoiou um experimento sem conhecer todos os efeitos.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "028",
+    "name": "Programador",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "eletronica",
+      "conhecimento",
+      "percepcao",
+      "ciencias"
+    ],
+    "gearNote": "Unidade de armazenamento com código-fonte.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma antiga colega mantém um servidor ainda ativo.",
+    "dilemma": "Criou um sistema que bloqueava acesso de usuários vulneráveis.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "029",
+    "name": "Administrador de Redes",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "conhecimento",
+      "percepcao",
+      "ciencias",
+      "tecnologia"
+    ],
+    "gearNote": "Testador de cabos e mapa de portas.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma estação de rádio depende de uma conexão recuperável.",
+    "dilemma": "Desligou uma rede para impedir um ataque e cortou um pedido de socorro.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "030",
+    "name": "Analista de Dados",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "percepcao",
+      "ciencias",
+      "tecnologia",
+      "investigacao"
+    ],
+    "gearNote": "Pen drive de relatórios e gráficos impressos.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma facção deseja recuperar registros de abastecimento.",
+    "dilemma": "Escondeu dados que apontavam desvio de recursos.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "031",
+    "name": "Técnico em Informática",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "ciencias",
+      "tecnologia",
+      "investigacao",
+      "eletronica"
+    ],
+    "gearNote": "Jogo de chaves de precisão.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Um professor guarda computadores que você consertava.",
+    "dilemma": "Apagou arquivos pessoais durante um reparo apressado.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "032",
+    "name": "Microbiologista",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "tecnologia",
+      "investigacao",
+      "eletronica",
+      "conhecimento"
+    ],
+    "gearNote": "Microscópio de bolso e lâminas vazias.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma médica procura sua antiga análise de culturas.",
+    "dilemma": "Trabalhou com material biológico sem cadeia de contenção suficiente.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "033",
+    "name": "Geólogo",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "investigacao",
+      "eletronica",
+      "conhecimento",
+      "percepcao"
+    ],
+    "gearNote": "Bússola geológica e martelo de amostragem.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Mineiros pedem avaliação de um túnel recém-aberto.",
+    "dilemma": "Declarou segura uma encosta antes da inspeção final.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "034",
+    "name": "Meteorologista",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "eletronica",
+      "conhecimento",
+      "percepcao",
+      "ciencias"
+    ],
+    "gearNote": "Barômetro portátil e diário climático.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Uma comunidade agrícola espera suas previsões.",
+    "dilemma": "Subestimou uma tempestade durante uma evacuação.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "035",
+    "name": "Astrônomo",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "conhecimento",
+      "percepcao",
+      "ciencias",
+      "tecnologia"
+    ],
+    "gearNote": "Carta celeste plastificada e pequeno monocular.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Um navegador noturno usa seus mapas de estrelas.",
+    "dilemma": "Desacreditou um sinal observado no céu por outra pessoa.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "036",
+    "name": "Operador de Drones",
+    "family": "Ciência e Tecnologia",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "percepcao",
+      "ciencias",
+      "tecnologia",
+      "investigacao"
+    ],
+    "gearNote": "Controle remoto sem bateria reserva.",
+    "description": "Conhecimento técnico pode explicar um fenômeno, mas quase sempre exige tempo, ferramentas e dados.",
+    "bond": "Um explorador perdeu seu drone num território hostil.",
+    "dilemma": "Filmou uma retirada sem avisar que havia pessoas expostas.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-3.svg"
+  },
+  {
+    "id": "037",
+    "name": "Mecânico",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "mecanica",
+      "investigacao",
+      "percepcao",
+      "prestidigitacao"
+    ],
+    "gearNote": "Jogo de chaves combinadas.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Uma motorista conserva um motor que você reparou.",
+    "dilemma": "Instalou uma peça improvisada que falhou em viagem.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "038",
+    "name": "Engenheiro Civil",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "engenharia",
+      "eletronica",
+      "oficio",
+      "investigacao"
+    ],
+    "gearNote": "Trena de aço e planta de estruturas.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Moradores pedem análise de um viaduto usado como rota.",
+    "dilemma": "Assinou a liberação de uma estrutura com fissuras.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "039",
+    "name": "Engenheiro Mecânico",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "eletronica",
+      "oficio",
+      "investigacao",
+      "atletismo"
+    ],
+    "gearNote": "Paquímetro e esboços de mecanismos.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um operador precisa terminar uma máquina que você projetou.",
+    "dilemma": "Aceitou um componente fora das especificações.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "040",
+    "name": "Eletricista",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "oficio",
+      "investigacao",
+      "atletismo",
+      "mecanica"
+    ],
+    "gearNote": "Alicate isolado e detector de tensão.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um abrigo depende do quadro elétrico que você conhece.",
+    "dilemma": "Fez uma ligação provisória sem sinalizar o risco.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "041",
+    "name": "Técnico Eletrônico",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "atletismo",
+      "mecanica",
+      "engenharia"
+    ],
+    "gearNote": "Multímetro e bolsa de componentes.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Uma rádio comunitária precisa de uma placa restaurada.",
+    "dilemma": "Retirou peças de um aparelho que ainda era necessário.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "042",
+    "name": "Soldador",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "atletismo",
+      "mecanica",
+      "engenharia",
+      "eletronica"
+    ],
+    "gearNote": "Máscara de solda e eletrodos limitados.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um ferreiro compartilha seu pequeno estoque de metal.",
+    "dilemma": "Selou uma porta que depois precisou ser aberta.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "043",
+    "name": "Encanador",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "mecanica",
+      "engenharia",
+      "eletronica",
+      "oficio"
+    ],
+    "gearNote": "Chave de tubo ajustável.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Moradores guardam uma nascente que você canalizou.",
+    "dilemma": "Desviou água de um bairro para salvar outro.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "044",
+    "name": "Técnico de Refrigeração",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "engenharia",
+      "eletronica",
+      "oficio",
+      "investigacao"
+    ],
+    "gearNote": "Manômetro e mangueira de serviço.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um depósito médico depende de refrigeração constante.",
+    "dilemma": "Desligou uma câmara fria para economizar energia.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "045",
+    "name": "Operador de Máquinas",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "eletronica",
+      "oficio",
+      "investigacao",
+      "atletismo"
+    ],
+    "gearNote": "Chave de partida e manual de empilhadeira.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um encarregado de armazém conhece seu histórico.",
+    "dilemma": "Derrubou uma carga sobre uma passagem de fuga.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "046",
+    "name": "Carpinteiro",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "oficio",
+      "investigacao",
+      "atletismo",
+      "mecanica"
+    ],
+    "gearNote": "Serrote dobrável e esquadro.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Uma família mora numa casa que você reforçou.",
+    "dilemma": "Usou madeira insuficiente para uma ponte improvisada.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "047",
+    "name": "Torneiro",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "atletismo",
+      "mecanica",
+      "engenharia"
+    ],
+    "gearNote": "Ferramenta de corte e calibre de rosca.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Uma oficina precisa de peças que só você sabe usinar.",
+    "dilemma": "Fez uma peça fora da tolerância para cumprir prazo.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "048",
+    "name": "Técnico Automotivo",
+    "family": "Engenharia e Indústria",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "atletismo",
+      "mecanica",
+      "engenharia",
+      "eletronica"
+    ],
+    "gearNote": "Leitor de diagnóstico automotivo descarregado.",
+    "description": "Máquinas e estruturas antigas continuam úteis enquanto houver peças, energia e pessoal treinado.",
+    "bond": "Um comboio procura um veículo abandonado em sua oficina.",
+    "dilemma": "Ocultou um defeito que poderia cancelar a missão.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-4.svg"
+  },
+  {
+    "id": "049",
+    "name": "Cozinheiro",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "percepcao",
+      "investigacao",
+      "medicina"
+    ],
+    "gearNote": "Faca de cozinha em bainha e caderno de receitas.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Uma cozinheira rival controla o refeitório do abrigo.",
+    "dilemma": "Serviu uma refeição sem saber que parte dos ingredientes estava estragada.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "050",
+    "name": "Motorista",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "percepcao",
+      "oficio",
+      "conducao"
+    ],
+    "gearNote": "Mapa rodoviário marcado e kit refletivo.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Um passageiro da última viagem tenta reencontrar você.",
+    "dilemma": "Continuou dirigindo depois de ouvir pedidos para parar.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "051",
+    "name": "Comerciante",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "percepcao",
+      "oficio",
+      "conducao",
+      "prestidigitacao"
+    ],
+    "gearNote": "Livro de contas e pequena balança.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Um fornecedor antigo cobra uma dívida não resolvida.",
+    "dilemma": "Elevou preços durante os primeiros dias de escassez.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "052",
+    "name": "Barbeiro",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "oficio",
+      "conducao",
+      "prestidigitacao",
+      "persuasao"
+    ],
+    "gearNote": "Tesoura de cabelo e navalha de trabalho.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Um frequentador do salão divulga notícias entre abrigos.",
+    "dilemma": "Ouviu uma confissão e não sabe se deve revelá-la.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "053",
+    "name": "Costureiro",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "conducao",
+      "prestidigitacao",
+      "persuasao",
+      "investigacao"
+    ],
+    "gearNote": "Estojo de agulhas, linhas e dedal.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Um abrigo lhe confia reparos de roupas de frio.",
+    "dilemma": "Guardou tecido destinado a pessoas sem agasalho.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "054",
+    "name": "Garçom",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "prestidigitacao",
+      "persuasao",
+      "investigacao",
+      "percepcao"
+    ],
+    "gearNote": "Saca-rolhas de serviço e bandeja leve.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Um antigo cliente conhece uma rota de suprimentos.",
+    "dilemma": "Presenciou uma reunião clandestina e fingiu não ouvir.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "055",
+    "name": "Estoquista",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "persuasao",
+      "investigacao",
+      "percepcao",
+      "oficio"
+    ],
+    "gearNote": "Prancheta de inventário e etiquetas.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Uma supervisora tem a chave de um depósito antigo.",
+    "dilemma": "Alterou registros para proteger alguém de uma punição.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "056",
+    "name": "Padeiro",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "percepcao",
+      "oficio",
+      "conducao"
+    ],
+    "gearNote": "Raspador de massa e medidor de porções.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Uma família mantém um forno comunitário em funcionamento.",
+    "dilemma": "Retirou farinha da reserva coletiva para salvar sua padaria.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "057",
+    "name": "Zelador",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "percepcao",
+      "oficio",
+      "conducao",
+      "prestidigitacao"
+    ],
+    "gearNote": "Molho de chaves e ferramenta multiuso.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Moradores de um edifício dependem dos acessos que conhece.",
+    "dilemma": "Fechou uma saída para impedir invasão e isolou vizinhos.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "058",
+    "name": "Entregador",
+    "family": "Serviços e Comércio",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "car",
+      "agi"
+    ],
+    "skills": [
+      "oficio",
+      "conducao",
+      "prestidigitacao",
+      "persuasao"
+    ],
+    "gearNote": "Bolsa térmica vazia e caderno de rotas.",
+    "description": "A vida civil criou redes de confiança, hábitos de serviço e uma compreensão prática da escassez.",
+    "bond": "Uma destinatária ainda espera um pacote perdido.",
+    "dilemma": "Abandonou entregas para voltar à própria família.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-5.svg"
+  },
+  {
+    "id": "059",
+    "name": "Autor",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "enganacao",
+      "persuasao",
+      "conhecimento",
+      "investigacao"
+    ],
+    "gearNote": "Caderno manuscrito com personagens inacabados.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Um leitor reconhece eventos reais nas suas anotações.",
+    "dilemma": "Publicou uma história baseada em confidência alheia.",
+    "editorial": "Conhecimento substitui Atuação somente neste suplemento. Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "060",
+    "name": "Professor",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "investigacao",
+      "persuasao",
+      "percepcao",
+      "conhecimento"
+    ],
+    "gearNote": "Plano de aula e estojo de giz.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Uma ex-aluna coordena crianças em um refúgio.",
+    "dilemma": "Deixou estudantes sob cuidado de alguém em quem não confiava.",
+    "editorial": "Conhecimento substitui Atuação somente neste suplemento. Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "061",
+    "name": "Estudante",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "investigacao",
+      "percepcao",
+      "persuasao",
+      "furtividade"
+    ],
+    "gearNote": "Mochila escolar e cartão de biblioteca.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Um colega guarda mensagens do último dia de aula.",
+    "dilemma": "Escondeu dos responsáveis a fuga de outro estudante.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "062",
+    "name": "Jornalista",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "lideranca",
+      "enganacao",
+      "percepcao",
+      "conhecimento"
+    ],
+    "gearNote": "Gravador portátil e bloco de entrevistas.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Uma fonte anônima volta a procurar você.",
+    "dilemma": "Publicou uma denúncia sem conseguir proteger a fonte.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "063",
+    "name": "Bibliotecário",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "enganacao",
+      "percepcao",
+      "conhecimento",
+      "persuasao"
+    ],
+    "gearNote": "Catálogo de empréstimos e mapa de estantes.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Um bibliotecário rival protege um arquivo raro.",
+    "dilemma": "Restringiu acesso a informação que poderia ter salvado pessoas.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "064",
+    "name": "Tradutor",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "percepcao",
+      "conhecimento",
+      "persuasao",
+      "investigacao"
+    ],
+    "gearNote": "Dicionário de bolso e notas bilíngues.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Um refugiado depende de você para negociar passagem.",
+    "dilemma": "Alterou o sentido de uma mensagem para evitar violência.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "065",
+    "name": "Radialista",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "conhecimento",
+      "persuasao",
+      "investigacao",
+      "lideranca"
+    ],
+    "gearNote": "Microfone portátil e lista de frequências.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Ouvintes ainda reconhecem seu indicativo de chamada.",
+    "dilemma": "Transmitiu um aviso que causou deslocamento perigoso.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "066",
+    "name": "Orientador Educacional",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "persuasao",
+      "investigacao",
+      "lideranca",
+      "enganacao"
+    ],
+    "gearNote": "Agenda de acompanhamento escolar.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Uma família pede notícias de uma criança desaparecida.",
+    "dilemma": "Interveio num conflito escolar tarde demais.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "067",
+    "name": "Pesquisador Social",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "investigacao",
+      "lideranca",
+      "enganacao",
+      "percepcao"
+    ],
+    "gearNote": "Caderno de entrevistas e mapa de comunidades.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Uma liderança teme a publicação de seus registros.",
+    "dilemma": "Fez perguntas que aumentaram a desconfiança entre grupos.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "068",
+    "name": "Repórter Fotográfico",
+    "family": "Educação e Comunicação",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "int",
+      "car"
+    ],
+    "skills": [
+      "lideranca",
+      "enganacao",
+      "percepcao",
+      "conhecimento"
+    ],
+    "gearNote": "Câmera com cartão de memória usado.",
+    "description": "Informações, instruções e relatos podem valer tanto quanto um recurso físico em uma comunidade.",
+    "bond": "Uma pessoa fotografada busca impedir divulgação da imagem.",
+    "dilemma": "Registrou uma tragédia sem oferecer auxílio imediato.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-6.svg"
+  },
+  {
+    "id": "069",
+    "name": "Caçador",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "percepcao",
+      "furtividade",
+      "investigacao"
+    ],
+    "gearNote": "Armadilha simples desarmada e cordel.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Um antigo parceiro conhece trilhas de caça seguras.",
+    "dilemma": "Feriu um animal que escapou para perto de uma comunidade.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "070",
+    "name": "Agricultor",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "natureza",
+      "rastreamento",
+      "orientacao",
+      "percepcao"
+    ],
+    "gearNote": "Bolsa de sementes identificadas.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Uma aldeia depende de uma safra que você plantou.",
+    "dilemma": "Usou fertilizante incerto para salvar uma colheita.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "071",
+    "name": "Pescador",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "rastreamento",
+      "orientacao",
+      "percepcao",
+      "atletismo"
+    ],
+    "gearNote": "Linha de pesca enrolada e anzóis.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Um barqueiro conhece sua antiga área de pesca.",
+    "dilemma": "Retirou recursos de uma margem usada por outra comunidade.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "072",
+    "name": "Botânico",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "orientacao",
+      "percepcao",
+      "atletismo",
+      "sobrevivencia"
+    ],
+    "gearNote": "Prensa de plantas e fichas de identificação.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Uma curandeira deseja recuperar sua coleção de amostras.",
+    "dilemma": "Confundiu duas espécies semelhantes numa coleta.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "073",
+    "name": "Guarda-Parque",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "percepcao",
+      "atletismo",
+      "sobrevivencia",
+      "natureza"
+    ],
+    "gearNote": "Mapa topográfico de trilhas e apito.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Uma família vive perto de uma antiga reserva.",
+    "dilemma": "Fechou uma trilha que servia como rota de fuga.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "074",
+    "name": "Apicultor",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "atletismo",
+      "sobrevivencia",
+      "natureza",
+      "rastreamento"
+    ],
+    "gearNote": "Véu de proteção e fumigador vazio.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Uma comunidade protege suas últimas colmeias.",
+    "dilemma": "Moveu colmeias sem avisar vizinhos do risco.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "075",
+    "name": "Zootecnista",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "natureza",
+      "rastreamento",
+      "orientacao"
+    ],
+    "gearNote": "Registro de alimentação de rebanho.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Um criador mantém animais que você acompanhava.",
+    "dilemma": "Priorizar o rebanho custou reservas de água de pessoas.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "076",
+    "name": "Guia de Trilhas",
+    "family": "Natureza e Trabalho Rural",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "natureza",
+      "rastreamento",
+      "orientacao",
+      "percepcao"
+    ],
+    "gearNote": "Bússola e cordão de marcação de caminho.",
+    "description": "A leitura do terreno facilita encontrar rotas e recursos, mas os perigos naturais continuam presentes.",
+    "bond": "Um excursionista desaparecido deixou pistas de sua rota.",
+    "dilemma": "Prometeu um trajeto seguro sob clima instável.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-7.svg"
+  },
+  {
+    "id": "077",
+    "name": "Atleta",
+    "family": "Artes, Esportes e Entretenimento",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "for",
+      "agi"
+    ],
+    "skills": [
+      "atletismo",
+      "acrobacia",
+      "percepcao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Faixa esportiva e cronômetro manual.",
+    "description": "Expressão, disciplina e improvisação podem manter pessoas unidas mesmo em situações desesperadoras.",
+    "bond": "Uma antiga companheira de equipe pede ajuda para treinar vigias.",
+    "dilemma": "Competiu mesmo sabendo de uma lesão grave.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-8.svg"
+  },
+  {
+    "id": "078",
+    "name": "Músico",
+    "family": "Artes, Esportes e Entretenimento",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "agi",
+      "car"
+    ],
+    "skills": [
+      "atletismo",
+      "persuasao",
+      "prestidigitacao",
+      "furtividade"
+    ],
+    "gearNote": "Instrumento portátil danificado.",
+    "description": "Expressão, disciplina e improvisação podem manter pessoas unidas mesmo em situações desesperadoras.",
+    "bond": "Um integrante da antiga banda vive em outro abrigo.",
+    "dilemma": "Abandonou o palco durante uma apresentação de socorro.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-8.svg"
+  },
+  {
+    "id": "079",
+    "name": "Fotógrafo",
+    "family": "Artes, Esportes e Entretenimento",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "agi",
+      "car"
+    ],
+    "skills": [
+      "persuasao",
+      "prestidigitacao",
+      "furtividade",
+      "conhecimento"
+    ],
+    "gearNote": "Câmera compacta e filtro de lente.",
+    "description": "Expressão, disciplina e improvisação podem manter pessoas unidas mesmo em situações desesperadoras.",
+    "bond": "Uma família quer recuperar seu último retrato.",
+    "dilemma": "Guardou imagens de um local secreto.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-8.svg"
+  },
+  {
+    "id": "080",
+    "name": "Artista Plástico",
+    "family": "Artes, Esportes e Entretenimento",
+    "period": "Antes do Apocalipse",
+    "priorities": [
+      "agi",
+      "car"
+    ],
+    "skills": [
+      "prestidigitacao",
+      "furtividade",
+      "conhecimento",
+      "acrobacia"
+    ],
+    "gearNote": "Estojo de carvão e pincéis gastos.",
+    "description": "Expressão, disciplina e improvisação podem manter pessoas unidas mesmo em situações desesperadoras.",
+    "bond": "Uma criança imita desenhos que você deixou nas paredes.",
+    "dilemma": "Pintou um símbolo que passou a ser interpretado como ameaça.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-8.svg"
+  },
+  {
+    "id": "081",
+    "name": "Explorador",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "percepcao",
+      "furtividade",
+      "investigacao"
+    ],
+    "gearNote": "Mapa de ruínas com rotas riscadas.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um grupo desaparecido seguiu suas anotações.",
+    "dilemma": "Marcou uma passagem como segura antes de voltar para conferir.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "082",
+    "name": "Catador",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "int"
+    ],
+    "skills": [
+      "investigacao",
+      "percepcao",
+      "furtividade",
+      "prestidigitacao"
+    ],
+    "gearNote": "Gancho de coleta e saco reforçado.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um comerciante compra peças de suas expedições.",
+    "dilemma": "Retirou material de uma casa ainda ocupada.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "083",
+    "name": "Batedor",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "con"
+    ],
+    "skills": [
+      "furtividade",
+      "acrobacia",
+      "percepcao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Binóculo pequeno e tecido de camuflagem.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um vigia espera seus sinais antes de abrir o portão.",
+    "dilemma": "Viu uma ameaça e retardou o aviso para não ser descoberto.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "084",
+    "name": "Rastreador de Ruínas",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "investigacao",
+      "rastreamento",
+      "orientacao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Fita de marcação e caderno de pegadas.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Uma irmã procura os passos de um desaparecido.",
+    "dilemma": "Seguiu uma trilha que levou o grupo para uma armadilha.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "085",
+    "name": "Guia de Rotas",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "rastreamento",
+      "orientacao",
+      "sobrevivencia",
+      "percepcao"
+    ],
+    "gearNote": "Mapa de passagens e marcos de referência.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Uma caravana pagou pela passagem a uma zona nova.",
+    "dilemma": "Vendeu uma rota alternativa sem testá-la por completo.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "086",
+    "name": "Recuperador de Suprimentos",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "orientacao",
+      "sobrevivencia",
+      "percepcao",
+      "furtividade"
+    ],
+    "gearNote": "Carrinho dobrável de transporte.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Uma clínica depende de uma carga esquecida.",
+    "dilemma": "Decidiu abandonar parte dos remédios para trazer equipamento.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "087",
+    "name": "Cartógrafo de Campo",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "percepcao",
+      "furtividade",
+      "investigacao"
+    ],
+    "gearNote": "Prancheta topográfica e lápis de grafite.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um líder mantém cópia de seus mapas de abrigos.",
+    "dilemma": "Desenhou uma saída secreta que alguém utilizou indevidamente.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "088",
+    "name": "Escalador de Estruturas",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "percepcao",
+      "furtividade",
+      "investigacao",
+      "rastreamento"
+    ],
+    "gearNote": "Corda curta e mosquetões gastos.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Uma operadora de telhado sabe onde você caiu.",
+    "dilemma": "Deixou material numa torre durante um resgate.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "089",
+    "name": "Navegador de Esgotos",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "furtividade",
+      "investigacao",
+      "rastreamento",
+      "orientacao"
+    ],
+    "gearNote": "Lâmpada estanque e planta de drenagem.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um técnico de bombas conhece seu acesso ao subsolo.",
+    "dilemma": "Abriu uma comporta e inundou um desvio usado por outros.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "090",
+    "name": "Coletor de Água",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "investigacao",
+      "rastreamento",
+      "orientacao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Recipiente graduado e filtro simples.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Uma moradora guarda a fonte que você descobriu.",
+    "dilemma": "Retirou água demais de uma cisterna comunitária.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "091",
+    "name": "Observador de Hordas",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "rastreamento",
+      "orientacao",
+      "sobrevivencia",
+      "percepcao"
+    ],
+    "gearNote": "Caderno de deslocamentos e binóculo.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um grupo confia em seus horários de patrulha infectada.",
+    "dilemma": "Interpretou uma migração como dispersão inofensiva.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "092",
+    "name": "Piloto de Evacuação",
+    "family": "Sobrevivência e Exploração",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "agi",
+      "sab"
+    ],
+    "skills": [
+      "orientacao",
+      "sobrevivencia",
+      "percepcao",
+      "furtividade"
+    ],
+    "gearNote": "Óculos de proteção e checklist de veículo.",
+    "description": "A ocupação surgiu das expedições e das rotas que ligam ruínas e comunidades.",
+    "bond": "Um evacuado conhece as condições do último voo.",
+    "dilemma": "Partiu antes de todos chegarem ao ponto de embarque.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-9.svg"
+  },
+  {
+    "id": "093",
+    "name": "Vigia",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "sab",
+      "con"
+    ],
+    "skills": [
+      "percepcao",
+      "sobrevivencia",
+      "furtividade",
+      "atletismo"
+    ],
+    "gearNote": "Apito de alarme e lanterna manual.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Uma sentinela da noite anterior guarda seu turno.",
+    "dilemma": "Dormiu por alguns minutos durante uma vigília.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "094",
+    "name": "Defensor",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "for",
+      "con"
+    ],
+    "skills": [
+      "atletismo",
+      "percepcao",
+      "intimidacao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Escudo improvisado leve.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Uma família vive atrás da barricada que você protege.",
+    "dilemma": "Recusou uma retirada para manter uma posição perdida.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "095",
+    "name": "Patrulheiro de Muralhas",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "intimidacao",
+      "sobrevivencia",
+      "armasBrancas",
+      "lideranca"
+    ],
+    "gearNote": "Corda de ronda e mapa dos acessos.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Um pedreiro conhece os pontos fracos da muralha.",
+    "dilemma": "Deixou uma abertura sem guarda para ajudar um amigo.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "096",
+    "name": "Sentinela de Telhado",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "armasBrancas",
+      "lideranca",
+      "atletismo"
+    ],
+    "gearNote": "Espelho de sinalização e monocular.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Um atirador de outra torre troca sinais com você.",
+    "dilemma": "Perdeu de vista uma aproximação enquanto socorria alguém.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "097",
+    "name": "Escolta de Comboio",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "armasBrancas",
+      "lideranca",
+      "atletismo",
+      "percepcao"
+    ],
+    "gearNote": "Faixa refletiva e tabela de paradas.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Um caminhoneiro deve um favor à sua equipe.",
+    "dilemma": "Escolheu proteger uma carga em vez de um veículo avariado.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "098",
+    "name": "Caçador de Ameaças",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "lideranca",
+      "atletismo",
+      "percepcao",
+      "intimidacao"
+    ],
+    "gearNote": "Caderno de padrões de criaturas.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Um abrigo paga por identificar novos perigos.",
+    "dilemma": "Confundiu sinais de animal comum com uma ameaça hostil.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "099",
+    "name": "Instrutor de Abrigo",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "atletismo",
+      "percepcao",
+      "intimidacao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Apito de treinamento e cartões de sinais.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Jovens aprendizes repetem suas instruções.",
+    "dilemma": "Treinou uma formação que falhou durante ataque real.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "100",
+    "name": "Operador de Barricadas",
+    "family": "Defesa e Combate",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "con",
+      "for"
+    ],
+    "skills": [
+      "percepcao",
+      "intimidacao",
+      "sobrevivencia",
+      "armasBrancas"
+    ],
+    "gearNote": "Martelo de unha e sacola de pregos.",
+    "description": "Defender uma posição exige vigília, comunicação e rotas de retirada, não apenas enfrentar inimigos.",
+    "bond": "Uma comunidade depende de sua última linha de defesa.",
+    "dilemma": "Bloqueou uma rota que seria necessária na evacuação.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-10.svg"
+  },
+  {
+    "id": "101",
+    "name": "Negociador",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "sab",
+      "int"
+    ],
+    "skills": [
+      "persuasao",
+      "enganacao",
+      "investigacao",
+      "percepcao"
+    ],
+    "gearNote": "Caderno de acordos e ficha de troca.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Um emissário de facção mantém um pacto com você.",
+    "dilemma": "Prometeu suprimentos que o abrigo não possuía.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "102",
+    "name": "Socorrista",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "sab"
+    ],
+    "skills": [
+      "medicina",
+      "percepcao",
+      "investigacao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Bolsa de ataduras e tala improvisada.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma paciente ajudada se tornou sua principal aliada.",
+    "dilemma": "Usou o último material médico em alguém de fora do grupo.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "103",
+    "name": "Técnico de Abrigo",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "agi"
+    ],
+    "skills": [
+      "mecanica",
+      "investigacao",
+      "percepcao",
+      "sobrevivencia"
+    ],
+    "gearNote": "Maleta de ferramentas e lista de manutenção.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Um gerador depende de peça sob guarda de rival.",
+    "dilemma": "Desligou ventilação para evitar sobrecarga elétrica.",
+    "editorial": " Perfil original do DRS, com harmonização indicada quando aplicável.",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "104",
+    "name": "Administrador de Rações",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "medicina",
+      "conhecimento",
+      "percepcao",
+      "persuasao"
+    ],
+    "gearNote": "Balança de porções e cartão de distribuição.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma família contesta seus critérios de alimento.",
+    "dilemma": "Reduziu a cota de pessoas ausentes sem verificar o motivo.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "105",
+    "name": "Mediador de Conflitos",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "conhecimento",
+      "percepcao",
+      "persuasao",
+      "lideranca"
+    ],
+    "gearNote": "Livro de decisões de assembleia.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Duas facções rivais aceitam ouvir sua palavra.",
+    "dilemma": "Apoiou um acordo injusto para impedir violência imediata.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "106",
+    "name": "Organizador de Refúgio",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "percepcao",
+      "persuasao",
+      "lideranca",
+      "investigacao"
+    ],
+    "gearNote": "Mapa de alojamentos e lista de famílias.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma liderança confia em sua organização de espaços.",
+    "dilemma": "Separou parentes para controlar uma crise de lotação.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "107",
+    "name": "Mensageiro de Comunidades",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "persuasao",
+      "lideranca",
+      "investigacao",
+      "medicina"
+    ],
+    "gearNote": "Bolsa impermeável de correspondência.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma pessoa espera uma carta que você não entregou.",
+    "dilemma": "Leu uma mensagem lacrada para proteger o destinatário.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "108",
+    "name": "Responsável pelo Inventário",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "lideranca",
+      "investigacao",
+      "medicina",
+      "conhecimento"
+    ],
+    "gearNote": "Prancheta de estoque e lacres numerados.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Um depósito mantém registros incompatíveis com os seus.",
+    "dilemma": "Escondeu uma perda que poderia desencadear punições.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "109",
+    "name": "Coordenador de Quarentena",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "investigacao",
+      "medicina",
+      "conhecimento",
+      "percepcao"
+    ],
+    "gearNote": "Máscara simples e livro de triagem.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma pessoa isolada insiste que foi diagnosticada erroneamente.",
+    "dilemma": "Manteve um portão fechado sem poder verificar um pedido de ajuda.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "110",
+    "name": "Cozinheiro Comunitário",
+    "family": "Comunidade e Logística",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "car",
+      "int"
+    ],
+    "skills": [
+      "medicina",
+      "conhecimento",
+      "percepcao",
+      "persuasao"
+    ],
+    "gearNote": "Panela de campanha e concha graduada.",
+    "description": "Manter uma comunidade requer distribuir recursos, ouvir disputas e sustentar acordos.",
+    "bond": "Uma idosa ensinou receitas que rendem mais porções.",
+    "dilemma": "Serviu primeiro o próprio grupo durante uma crise de fome.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-11.svg"
+  },
+  {
+    "id": "111",
+    "name": "Ferreiro de Sucata",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "mecanica",
+      "eletronica",
+      "oficio",
+      "ciencias"
+    ],
+    "gearNote": "Martelo de forja e punção.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Um catador oferece metal em troca de ferramentas.",
+    "dilemma": "Produziu peça quebradiça sem tempo para testar resistência.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "112",
+    "name": "Purificador de Água",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "eletronica",
+      "oficio",
+      "ciencias",
+      "sobrevivencia"
+    ],
+    "gearNote": "Teste simples de qualidade e recipiente de amostras.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Um povoado espera a ativação de um filtro recuperado.",
+    "dilemma": "Declarou potável um reservatório sem fazer todas as verificações.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "113",
+    "name": "Recuperador de Energia",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "oficio",
+      "ciencias",
+      "sobrevivencia",
+      "investigacao"
+    ],
+    "gearNote": "Alicate elétrico e mapa de circuitos.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Uma clínica depende de baterias que você recuperou.",
+    "dilemma": "Desviou energia de moradias para manter oficina ligada.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "114",
+    "name": "Especialista em Contenção",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "ciencias",
+      "sobrevivencia",
+      "investigacao",
+      "mecanica"
+    ],
+    "gearNote": "Fita de isolamento e máscara de inspeção.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Um guarda precisa de autorização para abrir uma área selada.",
+    "dilemma": "Deixou um material suspeito fora de quarentena.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "115",
+    "name": "Desmontador de Veículos",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "sobrevivencia",
+      "investigacao",
+      "mecanica",
+      "eletronica"
+    ],
+    "gearNote": "Extrator manual e estojo de parafusos.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Um comboio espera uma transmissão reaproveitada.",
+    "dilemma": "Consumiu peças de um veículo que poderia voltar a rodar.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "116",
+    "name": "Reparador de Rádios",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "investigacao",
+      "mecanica",
+      "eletronica",
+      "oficio"
+    ],
+    "gearNote": "Ferro de solda portátil e antena telescópica.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Uma voz desconhecida busca seu canal de emergência.",
+    "dilemma": "Interceptou uma transmissão privada e a compartilhou.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "117",
+    "name": "Cultivador Subterrâneo",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "mecanica",
+      "eletronica",
+      "oficio",
+      "ciencias"
+    ],
+    "gearNote": "Bandeja de mudas e termômetro de solo.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Uma horta do abrigo depende de suas sementes.",
+    "dilemma": "Gastou água de emergência numa cultura experimental.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "118",
+    "name": "Técnico de Armadilhas",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "eletronica",
+      "oficio",
+      "ciencias",
+      "sobrevivencia"
+    ],
+    "gearNote": "Alicate de arame e marcas de aviso.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Uma patrulha conhece seus sinais de armadilhas.",
+    "dilemma": "Esqueceu de retirar um dispositivo de passagem civil.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "119",
+    "name": "Observador de Infecção",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "oficio",
+      "ciencias",
+      "sobrevivencia",
+      "investigacao"
+    ],
+    "gearNote": "Ficha de sintomas e luvas descartáveis.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Uma família pede revisão de um caso de suspeita.",
+    "dilemma": "Classificou alguém como contaminado com dados insuficientes.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  },
+  {
+    "id": "120",
+    "name": "Operador de Geradores",
+    "family": "Especializações Pós-Colapso",
+    "period": "Depois do Apocalipse",
+    "priorities": [
+      "int",
+      "con"
+    ],
+    "skills": [
+      "ciencias",
+      "sobrevivencia",
+      "investigacao",
+      "mecanica"
+    ],
+    "gearNote": "Chave de vela e diário de combustível.",
+    "description": "O ofício foi adaptado à falta de indústria e depende de materiais que podem não ser encontrados.",
+    "bond": "Um abrigo depende de sua escala de fornecimento.",
+    "dilemma": "Gastou a reserva de combustível para testar reparo incerto.",
+    "editorial": "",
+    "img": "modules/sangue-escuro-criador-sobrevivente/assets/familia-12.svg"
+  }
+]

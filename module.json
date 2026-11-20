@@ -1,0 +1,36 @@
+{
+  "id": "sangue-escuro-criador-sobrevivente",
+  "title": "Sangue Escuro — Criador de Sobrevivente",
+  "description": "Criação guiada exclusiva do Sangue Escuro: perfis, sete atributos, perícias, habilidades, equipamentos, imagens e revisão do Mestre. Integração opcional com Escolha seu Sobrevivente.",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Sangue Escuro — Yob Warz"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sangue-escuro",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.8.13"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "assets/criador.css"
+  ],
+  "license": "LICENSE",
+  "url": "https://github.com/yobwarz/Dark-Blood-RPG-Criador-de-Sobrevivente",
+  "manifest": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-Criador-de-Sobrevivente/main/module.json",
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-Criador-de-Sobrevivente/v0.1.1/dist/sangue-escuro-criador-sobrevivente.zip"
+}
